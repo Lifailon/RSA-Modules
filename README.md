@@ -16,8 +16,16 @@
 
 ![Image alt](https://github.com/Lifailon/RSA-Modules/blob/rsa/Screen/Get-Update.jpg)
 
+### Get-RemoteDNS
+
+
+### Get-Soft
+Модуль для просмотра списка установленных программ на локальном или удаленном хосте, с возможностью их удаления. \
+`Get-Soft -wmi` использовать WMI \
+`Get-Soft -package` использовать Get-Package
+
 ### Get-Broker
-`Get-Broker localhost -r` вывод списка всех пользователей подключенных через RDCB с возможностью удаленного подключения через RDP-Shadow \
+`Get-Broker localhost -r` список всех пользователей подключенных через RDCB с возможностью удаленного подключения по средствам RDP-Shadow \
 `Get-Broker localhost -d` завершение сеанса пользователя \
 `Get-Broker localhost -c` отобразить список всех коллекций и программного обспечения \
 `Get-Broker localhost -h` список хостов и ролей в ферме
@@ -28,3 +36,9 @@
 `Get-EventTS localhost -logoff` \
 `Get-EventTS localhost -disconnect` \
 `Get-EventTS localhost -reconnect`
+
+### Get-Uptime
+
+### Get-UserProcess
+
+### Get-Netstat
