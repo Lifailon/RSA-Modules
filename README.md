@@ -17,12 +17,23 @@
 ![Image alt](https://github.com/Lifailon/RSA-Modules/blob/rsa/Screen/Get-Update.jpg)
 
 ### Get-RemoteDNS
+Модуль для удаленного (не требует установки) просмотра на DC списка всех DNS зон и дочерних записей выбранной зоны с возможностью удаления выбранной записи.
 
+![Image alt](https://github.com/Lifailon/RSA-Modules/blob/rsa/Screen/Get-RemoteDNS.jpg)
 
 ### Get-Soft
 Модуль для просмотра списка установленных программ на локальном или удаленном хосте, с возможностью их удаления. \
 `Get-Soft -wmi` использовать WMI \
 `Get-Soft -package` использовать Get-Package
+
+### Get-Uptime
+Модуль для локального и удаленного просмотра беспрерывного времени работы хоста и времени последней загрузки.
+
+### Get-UserProcess
+Модуль для отображения списка всех пользовательских процессов на локальном или удаленном сервере с возможностью их завершения.
+
+### Get-Netstat
+Модуль для вывода списка активных и открытых TCP-соединений с отображением имени удаленного хоста (nslookup) и используемого процесса.
 
 ### Get-Broker
 `Get-Broker localhost -r` список всех пользователей подключенных через RDCB с возможностью удаленного подключения по средствам RDP-Shadow \
@@ -36,9 +47,3 @@
 `Get-EventTS localhost -logoff` \
 `Get-EventTS localhost -disconnect` \
 `Get-EventTS localhost -reconnect`
-
-### Get-Uptime
-
-### Get-UserProcess
-
-### Get-Netstat
