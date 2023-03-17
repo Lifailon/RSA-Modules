@@ -49,8 +49,8 @@
 `Get-Broker localhost -h` список хостов и ролей в ферме
 
 ### [Get-EventTS](https://github.com/Lifailon/RSA-Modules/blob/rsa/Modules/Get-EventTS.psm1)
-`Get-EventTS localhost -connect` список пользователей, которые производили удаленную попытку RDP-подключения к хосту \
-`Get-EventTS localhost -logon` логи успешной авторизации \
-`Get-EventTS localhost -logoff` логи успешного завершения сеанса пользователя \
-`Get-EventTS localhost -disconnect` логи закрытия сессий \
-`Get-EventTS localhost -reconnect` логи переподключения к существующий сессии
+`Get-EventTS localhost -connect` список пользователей, которые производили удаленную попытку RDP-подключения к указанному хосту \
+`Get-EventTS localhost -logon` события успешной авторизации \
+`Get-EventTS localhost -logoff` события успешного завершения сеанса пользователя \
+`Get-EventTS localhost -disconnect` события закрытия сессий \
+`Get-EventTS localhost -reconnect` события переподключения к существующий сессии
