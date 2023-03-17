@@ -44,14 +44,14 @@
 Модуль для вывода списка слушающих портов и открытых TCP-соединений с отображением имени удаленного хоста (nslookup) и используемого процесса.
 
 ### [Get-Broker](https://github.com/Lifailon/RSA-Modules/blob/rsa/Modules/Get-Broker.psm1)
-`Get-Broker localhost -r` список всех пользователей подключенных через RDCB с возможностью удаленного подключения по средствам RDP-Shadow \
+`Get-Broker localhost -r` список всех пользователей подключенных через RDCB с возможностью удаленного подключения к пользователю через RD-Shadow \
 `Get-Broker localhost -d` список всех пользователей с возможностью завершение сеанса пользователя \
 `Get-Broker localhost -c` отобразить список всех коллекций и программного обспечения на выбранной \
 `Get-Broker localhost -h` список хостов и ролей в ферме
 
 ### [Get-EventTS](https://github.com/Lifailon/RSA-Modules/blob/rsa/Modules/Get-EventTS.psm1)
 `Get-EventTS localhost -connect` # список пользователей, которые производили удаленную попытку RDP-подключения к хосту \
-`Get-EventTS localhost -logon` \
-`Get-EventTS localhost -logoff` \
-`Get-EventTS localhost -disconnect` \
-`Get-EventTS localhost -reconnect`
+`Get-EventTS localhost -logon` # логи успешной авторизации \
+`Get-EventTS localhost -logoff` # логи успешного завершения сеанса пользователя \
+`Get-EventTS localhost -disconnect` # логи закрытия сессий \
+`Get-EventTS localhost -reconnect` # логи переподключения к существующий сессии
