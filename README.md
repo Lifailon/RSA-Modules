@@ -7,7 +7,7 @@
 ![Image alt](https://github.com/Lifailon/RSA-Modules/blob/rsa/Screen/Get-ARP-Search-MAC.jpg)
 
 ### Get-Size
-Модуль для отображения общего и свободного кол-ва оперативной памяти (**-memory**) и пространства логических дисков (**-disk**).
+Модуль для отображения общего и свободного объема оперативной памяти (**-memory**) и логических дисков (**-disk**).
 
 ![Image alt](https://github.com/Lifailon/RSA-Modules/blob/rsa/Screen/Get-Size.jpg)
 
