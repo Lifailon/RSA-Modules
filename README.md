@@ -1,6 +1,14 @@
 # RSA-Modules
 Подборка модулей, которые используются в **[RSA](https://github.com/Lifailon/RSA)**.
 
+### [Export-Excel](https://github.com/Lifailon/RSA-Modules/blob/rsa/Convert-Excel/Export-Excel.psm1)
+Модуль для экспорта объекта PowerShell в Excel-файл.
+
+### [Import-Excel](https://github.com/Lifailon/RSA-Modules/blob/rsa/Convert-Excel/Import-Excel.psm1) (beta)
+Модуль для импорта Excel-файла в Hashtable.
+
+![Image alt](https://github.com/Lifailon/RSA-Modules/blob/rsa/Convert-Excel/Example.jpg)
+
 ### [Get-ARP](https://github.com/Lifailon/RSA-Modules/blob/rsa/Modules/Get-ARP.psm1)
 Модуль для просмотра на локальном или удаленном хосте всей **ARP-таблицы** с выводом в **PSCustomObject**. Применяется для поиска MAC-адреса выключенного устройства, используя ARP-таблицы других хостов. В примере на скриншоте хост недоступен, вначале ищем его по имени в локальной таблице, потом на других серверах.
 
