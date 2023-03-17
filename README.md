@@ -1,5 +1,4 @@
 # RSA-Modules
-Подборка модулей, которые используются в **[RSA](https://github.com/Lifailon/RSA)**.
 
 ### [Export-Excel](https://github.com/Lifailon/RSA-Modules/blob/rsa/Convert-Excel/Export-Excel.psm1)
 Модуль для экспорта объекта PowerShell в Excel-файл.
