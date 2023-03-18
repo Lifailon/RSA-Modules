@@ -3,7 +3,7 @@
 ### [Export-Excel](https://github.com/Lifailon/RSA-Modules/blob/rsa/Convert-Excel/Export-Excel.psm1)
 Модуль для экспорта объекта PowerShell в Excel-файл.
 
-### [Import-Excel](https://github.com/Lifailon/RSA-Modules/blob/rsa/Convert-Excel/Import-Excel.psm1) (beta)
+### [Import-Excel](https://github.com/Lifailon/RSA-Modules/blob/rsa/Convert-Excel/Import-Excel.psm1)
 Модуль для импорта Excel-файла в Hashtable.
 
 ![Image alt](https://github.com/Lifailon/RSA-Modules/blob/rsa/Convert-Excel/Example.jpg)
